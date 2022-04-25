@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace LifeCoachProject
+namespace LifeCoachProject.Login
 {
     public partial class LoginPage : System.Web.UI.Page
     {

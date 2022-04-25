@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="LoginPage.aspx.cs" Inherits="LifeCoachProject.LoginPage" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="/Login/ForgetPassword.aspx.cs" Inherits="LifeCoachProject.Login.ForgetPassword" %>
 
 <!DOCTYPE html>
 <html lang="tr">
@@ -11,7 +11,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Giriş Sayfası</title>
+    <title>Şifremi Unuttum</title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -41,48 +41,28 @@
                             <div class="col-lg-6">
                                 <div class="p-5">
                                     <div class="text-center">
-                                        <h1 class="h4 text-gray-900 mb-4">Hoşgeldin!</h1>
+                                        <h1 class="h4 text-gray-900 mb-4">Şifremi Unuttum!</h1>
                                     </div>
                                     <form class="user" runat="server">
-                                        <div class="form-group">
-                                            <asp:DropDownList ID="DrpList" runat="server" CssClass="form-control">
-                                                <asp:ListItem>Diyetisyen</asp:ListItem>
-                                                <asp:ListItem>Kullanıcı</asp:ListItem>
-
-                                            </asp:DropDownList> 
-                                                
-                                        </div>
+          
                                         <div class="form-group">
                                             <asp:Label ID="Label1" runat="server" Text="Email Adresi" Font-Size="Small"></asp:Label>
                                             <asp:TextBox runat="server" ID="exampleInputEmail" TextMode="Email" aria-describedby="emailHelp" CssClass="form-control form-control-user"></asp:TextBox>
                                         </div>
-                                        <div class="form-group">
-                                        <asp:Label ID="Label2" runat="server" Text="Şifre" Font-Size="Small"></asp:Label>
-                                            <asp:TextBox ID="exampleInputPassword" runat="server" TextMode="Password" CssClass="form-control form-control-user" ></asp:TextBox>
-                                        </div>
+                       
                                         <div class="form-group">
                                             <div class="custom-control custom-checkbox small">
                                                 <input type="checkbox" class="custom-control-input" id="customCheck">
-                                                <label class="custom-control-label" for="customCheck">Beni Hatırla</label>
+                                                <label class="custom-control-label" for="customCheck">Ben robot değilim</label>
                                             </div>
                                         </div>
-                                       <asp:Button ID="ButonGiris" CssClass="btn btn-primary btn-user btn-block" runat="server" BackColor="Gray"  Text="Giriş" OnClick="ButonGiris_Click"></asp:Button>
+                                       <asp:Button ID="ButonGiris" CssClass="btn btn-info btn-user btn-block" runat="server" BackColor="#0066ff"  Text="Gönder"></asp:Button>
   
                                         <hr>
-                                        <a href="index.html" class="btn btn-google btn-user btn-block">
-                                            <i class="fab fa-google fa-fw"></i>Google ile Giriş
-                                        </a>
-                                        <a href="index.html" class="btn btn-facebook btn-user btn-block">
-                                            <i class="fab fa-facebook-f fa-fw"></i> Facebook ile Giriş
-                                        </a>
+                                      
                                     </form>
                                     <hr>
-                                    <div class="text-center">
-                                        <a class="small" href="forgot-password.html">Şifreyi unuttum?</a>
-                                    </div>
-                                    <div class="text-center">
-                                        <a class="small" href="register.html">Hesap Oluştur!</a>
-                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -108,3 +88,4 @@
 </body>
 
 </html>
+
