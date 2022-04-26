@@ -73,7 +73,7 @@
                                 </div>
                                 <hr />
                                 <div class="text-center">
-                                <asp:Button ID="btn_giris_yap" runat="server" BackColor="#ff99cc" Cssclass="btn btn-primary btn-user btn-block" Text="Zaten Bir Hesabın Var mı? Giriş Yap!" Width="382px" />
+                                <asp:Button ID="btn_giris_yap" runat="server" BackColor="#ff99cc" Cssclass="btn btn-primary btn-user btn-block" Text="Zaten Bir Hesabın Var mı? Giriş Yap!" Width="382px" OnClick="btn_giris_yap_Click" />
                                 <div>
                                     <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
                                 </div>

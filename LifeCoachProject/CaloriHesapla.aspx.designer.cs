@@ -7,21 +7,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace LifeCoachProject.Login
+namespace LifeCoachProject
 {
 
 
-    public partial class LoginPage
+    public partial class Calori
     {
-
-        /// <summary>
-        /// DrpList control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DrpList;
 
         /// <summary>
         /// Label1 control.
@@ -33,13 +24,13 @@ namespace LifeCoachProject.Login
         protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
-        /// exampleInputEmail control.
+        /// TextBox_yas control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox exampleInputEmail;
+        protected global::System.Web.UI.WebControls.TextBox TextBox_yas;
 
         /// <summary>
         /// Label2 control.
@@ -51,39 +42,48 @@ namespace LifeCoachProject.Login
         protected global::System.Web.UI.WebControls.Label Label2;
 
         /// <summary>
-        /// exampleInputPassword control.
+        /// TextBox_kilo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox exampleInputPassword;
+        protected global::System.Web.UI.WebControls.TextBox TextBox_kilo;
 
         /// <summary>
-        /// ButonGiris control.
+        /// Label3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButonGiris;
+        protected global::System.Web.UI.WebControls.Label Label3;
 
         /// <summary>
-        /// btn_kayıt control.
+        /// TextBox_boy control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btn_kayıt;
+        protected global::System.Web.UI.WebControls.TextBox TextBox_boy;
 
         /// <summary>
-        /// btn_sifremi_unuttum control.
+        /// btn_hesapla control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btn_sifremi_unuttum;
+        protected global::System.Web.UI.WebControls.Button btn_hesapla;
+
+        /// <summary>
+        /// Label4 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label4;
     }
 }

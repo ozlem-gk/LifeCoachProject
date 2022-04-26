@@ -22,6 +22,19 @@
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
 
+    <style type="text/css">
+        .auto-style1 {
+            position: relative;
+            width: auto;
+            flex: 0 0 auto;
+            max-width: 100%;
+            left: 11px;
+            top: -89px;
+            padding-left: .75rem;
+            padding-right: .75rem;
+        }
+    </style>
+
 </head>
 
 <body id="page-top">
@@ -81,15 +94,19 @@
                     <i class="fas fa-fw fa-wrench"></i>
                     <span>Günlük Girişler</span>
                 </a>
-                <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
+                
+                    <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Günlük Değerler:</h6>
-                        <a class="collapse-item" href="utilities-color.html">Su Girişi</a>
-                        <a class="collapse-item" href="utilities-border.html">Su Girişi</a>
+                        
+                        <!--<a class="collapse-item" href="utilities-color.html">Su Girişi</a>-->
+                        <!--<a class="collapse-item" href="utilities-border.html">Su Girişi</a>-->
                         <a class="collapse-item" href="utilities-animation.html">Günlük Durum Girişi</a>
                     </div>
                 </div>
+               
+                
             </li>
 
             <!-- Divider -->
@@ -374,7 +391,8 @@
                     </div>
 
                     <!-- Content Row -->
-                    <div class="row">
+                    <form runat="server">
+                        <div class="row">
 
                         <!-- Earnings (Monthly) Card Example -->
                         <div class="col-xl-3 col-md-6 mb-4">
@@ -385,6 +403,10 @@
                                             <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
                                                 Günlük Alınan Su Değeri</div>
                                             <div class="h5 mb-0 font-weight-bold text-gray-800">1400 ml</div>
+                                            <div>
+                                                <asp:Button ID="btn_su" CssClass="btn btn-warning btn-user btn-block"  runat="server" Text="Günlük Su Girişi" OnClick="btn_su_Click" />
+                                            </div>
+
                                         </div>
                                         <div class="col-auto">
                                             <i class="fas fa-hand-holding-water fa-2x text-gray-300"></i>
@@ -403,14 +425,38 @@
                                             <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
                                                 Günlük Yapılan Spor Kalori</div>
                                             <div class="h5 mb-0 font-weight-bold text-gray-800">540 kcal</div>
+                                            <div>
+                                                <asp:Button ID="btn_spor" CssClass="btn btn-warning btn-user btn-block"  runat="server" Text="Günlük Spor Girişi" OnClick="btn_spor_Click" />
+                                            </div>
                                         </div>
-                                        <div class="col-auto">
+                                        <div class="auto-style1">
                                             <i class="fas fa-running fa-2x text-gray-300"></i>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
+                            <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card border-left-success shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                                                Günlük Kalori Değer</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">540 kcal</div>
+                                            <div>
+                                                <asp:Button ID="btn_kalori" CssClass="btn btn-warning btn-user btn-block"  runat="server" Text="Günlük Kalori Girişi" OnClick="btn_kalori_Click" />
+                                            </div>
+                                        </div>
+                                        <div class="auto-style1">
+                                            <i class="fas fa-running fa-2x text-gray-300"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
 
                         <!-- Earnings (Monthly) Card Example -->
                         <div class="col-xl-3 col-md-6 mb-4">
@@ -424,6 +470,7 @@
                                                 <div class="col-auto">
                                                     <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">50%</div>
                                                 </div>
+                                                
                                                 <div class="col">
                                                     <div class="progress progress-sm mr-2">
                                                         <div class="progress-bar bg-info" role="progressbar"
@@ -450,9 +497,11 @@
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
                                                 Kalori Hesapla</div>
-                                            <form runat="server">
-                                           <asp:Button ID="Button1" runat="server" CssClass="btn btn-warning btn-user btn-block" Text="Button"></asp:Button>
-                                            </form>
+                                            
+                                           <asp:Button ID="Button1" runat="server" CssClass="btn btn-warning btn-user btn-block" Text="Kalori Hesapla" OnClick="Button1_Click"></asp:Button>
+                                                
+                        
+                                            
                                             <div class="h5 mb-0 font-weight-bold text-gray-800"></div>
                                         </div>
                                         <div class="col-auto">
@@ -467,6 +516,9 @@
                         <!-- Pending Requests Card Example -->
                         
                     </div>
+
+                    </form>
+                    
 
                     <!-- Content Row -->
 

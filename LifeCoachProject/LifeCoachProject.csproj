@@ -239,10 +239,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Calori.aspx" />
+    <Content Include="CaloriHesapla.aspx" />
     <Content Include="css\sb-admin-2.css" />
     <Content Include="css\sb-admin-2.min.css" />
     <Content Include="Default.aspx" />
+    <Content Include="Diet.aspx" />
     <Content Include="DietitianPage.aspx" />
+    <Content Include="Global.asax" />
     <Content Include="img\undraw_posting_photo.svg" />
     <Content Include="img\undraw_profile.svg" />
     <Content Include="img\undraw_profile_1.svg" />
@@ -258,6 +262,8 @@
     <Content Include="Login\ForgetPassword.aspx" />
     <Content Include="Login\LoginPage.aspx" />
     <Content Include="Login\RegisterLogin.aspx" />
+    <Content Include="Report.aspx" />
+    <Content Include="Sport.aspx" />
     <Content Include="vendor\bootstrap\js\bootstrap.bundle.js" />
     <Content Include="vendor\bootstrap\js\bootstrap.bundle.min.js" />
     <Content Include="vendor\bootstrap\js\bootstrap.js" />
@@ -1927,9 +1933,24 @@
     <Content Include="vendor\jquery\jquery.min.js" />
     <Content Include="vendor\jquery\jquery.slim.js" />
     <Content Include="vendor\jquery\jquery.slim.min.js" />
+    <Content Include="Water.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Calori.aspx.cs">
+      <DependentUpon>Calori.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Calori.aspx.designer.cs">
+      <DependentUpon>Calori.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CaloriHesapla.aspx.cs">
+      <DependentUpon>CaloriHesapla.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CaloriHesapla.aspx.designer.cs">
+      <DependentUpon>CaloriHesapla.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1937,12 +1958,22 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Diet.aspx.cs">
+      <DependentUpon>Diet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Diet.aspx.designer.cs">
+      <DependentUpon>Diet.aspx</DependentUpon>
+    </Compile>
     <Compile Include="DietitianPage.aspx.cs">
       <DependentUpon>DietitianPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="DietitianPage.aspx.designer.cs">
       <DependentUpon>DietitianPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Login\ForgetPassword.aspx.cs">
       <DependentUpon>ForgetPassword.aspx</DependentUpon>
@@ -1965,6 +1996,34 @@
     </Compile>
     <Compile Include="Login\RegisterLogin.aspx.designer.cs">
       <DependentUpon>RegisterLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report.aspx.cs">
+      <DependentUpon>Report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report.aspx.designer.cs">
+      <DependentUpon>Report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Sport.aspx.cs">
+      <DependentUpon>Sport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sport.aspx.designer.cs">
+      <DependentUpon>Sport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Water.aspx.cs">
+      <DependentUpon>Water.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Water.aspx.designer.cs">
+      <DependentUpon>Water.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -2141,6 +2200,7 @@
     <Content Include="vendor\jquery\jquery.min.map" />
     <Content Include="vendor\jquery\jquery.slim.min.map" />
     <None Include="packages.config" />
+    <Content Include="Site1.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

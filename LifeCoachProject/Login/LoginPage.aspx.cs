@@ -31,5 +31,15 @@ namespace LifeCoachProject.Login
                 Response.Redirect("/DietitianPage.aspx");
             }
         }
+
+        protected void btn_kayıt_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("/Login/RegisterLogin.aspx");
+        }
+
+        protected void btn_sifremi_unuttum_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("/Login/ForgetPassword.aspx");
+        }
     }
 }

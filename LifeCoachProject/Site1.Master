@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="LifeCoachProject.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:Menu ID="Menu1" runat="server"  BackColor="White" BorderColor="#3333CC" Font-Size="XX-Large" Orientation="Horizontal" ForeColor="#CC6699">
+                <DynamicHoverStyle BackColor="Fuchsia" />
+                <Items>
+                    <asp:MenuItem NavigateUrl="~/Calori.aspx" Text="Calori" Value="Calori"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/Sport.aspx" Text="Spor" Value="Spor"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/Water.aspx" Text="Su" Value="Su"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/Diet.aspx" Text="Diyet" Value="Diet"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/Report.aspx" Text="Rapor" Value="New Item"></asp:MenuItem>
+                </Items>
+            </asp:Menu>
+            <br />
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

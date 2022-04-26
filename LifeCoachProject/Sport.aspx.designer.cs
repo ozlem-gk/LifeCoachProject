@@ -7,21 +7,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace LifeCoachProject.Login
+namespace LifeCoachProject
 {
 
 
-    public partial class LoginPage
+    public partial class Sport
     {
-
-        /// <summary>
-        /// DrpList control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DrpList;
 
         /// <summary>
         /// Label1 control.
@@ -33,13 +24,13 @@ namespace LifeCoachProject.Login
         protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
-        /// exampleInputEmail control.
+        /// txt_spor_type control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox exampleInputEmail;
+        protected global::System.Web.UI.WebControls.TextBox txt_spor_type;
 
         /// <summary>
         /// Label2 control.
@@ -51,39 +42,75 @@ namespace LifeCoachProject.Login
         protected global::System.Web.UI.WebControls.Label Label2;
 
         /// <summary>
-        /// exampleInputPassword control.
+        /// Label3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox exampleInputPassword;
+        protected global::System.Web.UI.WebControls.Label Label3;
 
         /// <summary>
-        /// ButonGiris control.
+        /// txt_duration control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButonGiris;
+        protected global::System.Web.UI.WebControls.TextBox txt_duration;
 
         /// <summary>
-        /// btn_kayıt control.
+        /// Label4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btn_kayıt;
+        protected global::System.Web.UI.WebControls.Label Label4;
 
         /// <summary>
-        /// btn_sifremi_unuttum control.
+        /// Label5 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btn_sifremi_unuttum;
+        protected global::System.Web.UI.WebControls.Label Label5;
+
+        /// <summary>
+        /// txt_calories control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txt_calories;
+
+        /// <summary>
+        /// Label6 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label6;
+
+        /// <summary>
+        /// Button1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Button1;
+
+        /// <summary>
+        /// Label7 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label7;
     }
 }

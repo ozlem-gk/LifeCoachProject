@@ -36,8 +36,8 @@
                 <div class="card o-hidden border-0 shadow-lg my-5">
                     <div class="card-body p-0">
                         <!-- Nested Row within Card Body -->
-                        <div class="row">
-                            <div class="col-lg-6 d-none d-lg-block bg-login-image"></div>
+                        <div class="row" style="text-align:center">
+                            <div class="col-lg-6 d-none d-lg-block" style="background-color:gray"></div>
                             <div class="col-lg-6">
                                 <div class="p-5">
                                     <div class="text-center">
@@ -45,7 +45,7 @@
                                     </div>
                                     <form class="user" runat="server">
                                         <div class="form-group">
-                                            <asp:DropDownList ID="DrpList" runat="server" CssClass="form-control bg-gradient-light">
+                                            <asp:DropDownList ID="DrpList" runat="server" CssClass="form-control bg-gradient-light" Width="268px">
                                                 <asp:ListItem>Diyetisyen</asp:ListItem>
                                                 <asp:ListItem>Kullanıcı</asp:ListItem>
 
@@ -54,10 +54,10 @@
                                         </div>
                                         <div class="form-group">
                                             <asp:Label ID="Label1" runat="server" Text="Email Adresi" Font-Size="Small"></asp:Label>
-                                            <asp:TextBox runat="server" ID="exampleInputEmail" TextMode="Email" aria-describedby="emailHelp" CssClass="form-control form-control-user"></asp:TextBox>
+                                            <asp:TextBox runat="server" ID="exampleInputEmail" TextMode="Email" aria-describedby="emailHelp" CssClass="form-control form-control-user" Width="171px"></asp:TextBox>
                                         </div>
                                         <div class="form-group">
-                                        <asp:Label ID="Label2" runat="server" Text="Şifre" Font-Size="Small"></asp:Label>
+                                        <asp:Label ID="Label2" runat="server" Text="Kullanıcı Şifre" Font-Size="Small"></asp:Label>
                                             <asp:TextBox ID="exampleInputPassword" runat="server" TextMode="Password" CssClass="form-control form-control-user" ></asp:TextBox>
                                         </div>
                                         <div class="form-group">
@@ -66,23 +66,20 @@
                                                 <label class="custom-control-label" for="customCheck">Beni Hatırla</label>
                                             </div>
                                         </div>
-                                       <asp:Button ID="ButonGiris" CssClass="btn btn-info btn-user btn-block" runat="server" BackColor="#6666ff"  Text="Giriş" OnClick="ButonGiris_Click"></asp:Button>
+                                       <asp:Button ID="ButonGiris" CssClass="btn btn-info btn-user btn-block" runat="server" BackColor="#6666ff"  Text="Giriş" OnClick="ButonGiris_Click" Width="248px"></asp:Button>
   
                                         <hr>
-                                        <a href="index.html" class="btn btn-google btn-user btn-block">
-                                            <i class="fab fa-google fa-fw"></i>Google ile Giriş
-                                        </a>
-                                        <a href="index.html" class="btn btn-facebook btn-user btn-block">
-                                            <i class="fab fa-facebook-f fa-fw"></i> Facebook ile Giriş
-                                        </a>
+                                        <div>
+                                            <asp:Button ID="btn_kayıt" CssClass="btn btn-info btn-user btn-block" runat="server" BackColor="#6666ff"  Text="Hesap Oluştur" OnClick="btn_kayıt_Click" Width="242px" />
+                                        </div>
+                                        <div>
+                                            <asp:Button ID="btn_sifremi_unuttum" CssClass="btn btn-info btn-user btn-block" BackColor="#6666ff"  runat="server" Text="Şifremi Unuttum!" Width="240px" OnClick="btn_sifremi_unuttum_Click" />
+                                        </div>
+                                        
                                     </form>
                                     <hr>
-                                    <div class="text-center">
-                                        <a class="small" href="forgot-password.html">Şifreyi unuttum?</a>
-                                    </div>
-                                    <div class="text-center">
-                                        <a class="small" href="register.html">Hesap Oluştur!</a>
-                                    </div>
+                                    
+                                    
                                 </div>
                             </div>
                         </div>
