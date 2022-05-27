@@ -17,6 +17,11 @@ namespace MyClassLibrary
         public int calori { get; set; }
         public int spor { get; set; }
 
+        public void Message()
+        {
+            return ;
+
+        }
         //public List<MyClassLibrary.User> GetByAdSoyad(string Ad)
         //{
           //  MyClassLibrary.KutuphaneEntitiy ent = new MyClassLibrary.KutuphaneEntitiy();
