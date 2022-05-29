@@ -9,7 +9,9 @@ Use a Boostrap!
 
 Base CRUD structure,
 
+
 I used MySql:
+
 ![Ekran Görüntüsü (221)](https://user-images.githubusercontent.com/77550741/166109674-437b44a7-f27b-4801-8db7-a42726be44dc.png)
 
 
@@ -18,5 +20,7 @@ I used MySql:
 
 Authority control,
 
+
 Use Ajax and master page:
+
 ![Ekran Görüntüsü (225)](https://user-images.githubusercontent.com/77550741/166109048-0b038e1b-b16a-4018-abb9-19676304dbc1.png)
