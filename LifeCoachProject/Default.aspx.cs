@@ -33,5 +33,17 @@ namespace LifeCoachProject
         {
             Response.Redirect("/Calori.aspx");
         }
+        protected void btnDeGiris_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("/Login/LoginPage.aspx");
+        }
+        protected void btnDeKayit_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("/Login/RegisterLogin.aspx");
+        }
+        protected void btnDeCikis_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("/Login/LoginPage.aspx");
+        }
     }
 }

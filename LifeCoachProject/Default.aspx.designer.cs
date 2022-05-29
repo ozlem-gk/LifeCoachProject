@@ -15,6 +15,33 @@ namespace LifeCoachProject
     {
 
         /// <summary>
+        /// btnDeGiris control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnDeGiris;
+
+        /// <summary>
+        /// btnDeKayit control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnDeKayit;
+
+        /// <summary>
+        /// btnDeCikis control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnDeCikis;
+
+        /// <summary>
         /// btn_su control.
         /// </summary>
         /// <remarks>
